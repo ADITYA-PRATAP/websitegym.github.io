@@ -1,0 +1,134 @@
+
+
+*{margin:0;
+padding:0;
+font-family: 'Poppins', sans-serif;
+}
+
+.header{
+   min-height: 80vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(nt.jfif);
+background-position: center;
+background-size:cover;
+    
+    position: relative;
+    
+}
+.text-box{
+    width :90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left:50%
+        transform:translate(-50%,-50%);
+         text-align: center;
+    }
+.text-box h1{
+    font-size:62px;
+}
+.text-box p{
+     marging:10px 0 40px;
+    font-size: 14px;
+    color:#fff:
+}
+
+
+nav{
+    
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display:inline-block;
+    padding: 8px 12px;
+    position: relative;
+    
+}
+
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+.Branch{
+    width:80%;
+    margin: auto;
+    text-align: center;
+    padding-top:100px;
+    
+}
+.row{
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+        
+}
+.col{
+    flex-basis: 31%;
+    background: #556B2F;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    transition: 0.5;
+    
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.col:hover{
+    
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+    
+}
+.tips{
+   width: 100%;
+    margin:0px;
+    text-align: center;
+    padding-top:100px;}
+
+    .cta{
+    margin: 100px auto;
+    width:90%;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(=.jfif);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+    
+}
+.cta h1{
+    color:#fff;
+    margin-bottom:40px;
+    padding:0;
+}
+.cta:hover{
+    
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);}
+.hero-btn{
+
+display: inline-block;
+     text-decoration: none;
+     color: white;
+  border: 1px solid #fff;
+     padding: 26px 26px;
+background: trasparent;
+    position: relative;
+    cursor: pointer;
+   border-radius: 2px;
+}
+
+.hero-btn:hover {
+  background: red;
+}
+
